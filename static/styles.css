@@ -1,0 +1,238 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form input[type="number"]:focus,
+form select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboard h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.dashboard table {
+    margin-bottom: 30px;
+}
+
+.dashboard h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dashboard form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard .logout-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Login & Signup Page Styles */
+.login-signup {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-signup h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.login-signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-signup form input[type="text"],
+.login-signup form input[type="password"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-signup form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-signup form button:hover {
+    background-color: #0056b3;
+}
+
+.login-signup .links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-signup .links a {
+    color: #007bff;
+}
+
+/* Home Page Styles */
+.home {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.home .links a {
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    transition: 0.3s ease-in-out;
+}
+
+.home .links a:hover {
+    background-color: #007bff;
+    color: white;
+}
+.container {
+    text-align: center;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style for buttons */
+.btn {
+    padding: 15px 30px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #0056b3; /* Darker blue */
+}
