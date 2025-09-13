@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} my website {% endblock %}</title>
+    <style>
+        header{
+            background-color: yellow;
+        }
+        footer{
+            height: 20vh;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+   <header>
+      <h2>my site</h2>
+      <nav>
+        <a href="/login.html" >home</a>
+        <a href="/profile">about</a>
+      </nav>
+      
+   </header>
+   {% block content %}
+      
+      {% endblock %}
+
+      <footer>
+        
+      </footer>
+</body>
+</html>
